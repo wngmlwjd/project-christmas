@@ -13,5 +13,43 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="헤더 파일\core">
+      <UniqueIdentifier>{546dd809-b738-4771-9db5-65feb72e9b9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\scenes">
+      <UniqueIdentifier>{487d072f-aa96-438f-afbb-96f4cbc9be60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\utils">
+      <UniqueIdentifier>{667edc40-febb-40d9-befb-fd4ab76872e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\core">
+      <UniqueIdentifier>{a46c5978-e849-48fa-861c-c9160de10d5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\scenes">
+      <UniqueIdentifier>{f9181cc5-5310-4561-96b3-826a1454c566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\utils">
+      <UniqueIdentifier>{d8c02379-919e-4b03-9f62-2bb15a7db903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\assets">
+      <UniqueIdentifier>{6bb658a4-6597-4740-bfdf-a8529290e09e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\resources">
+      <UniqueIdentifier>{300738c5-f696-4cf7-96e6-f40db4263fdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\resources\testures">
+      <UniqueIdentifier>{9761d9dd-5606-4f32-bcde-5f8bf3d76b7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\resources\shaders">
+      <UniqueIdentifier>{fbdd7997-3912-448d-a4ab-943f7b77f1e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\GLAD\src\glad.c">
+      <Filter>소스 파일\core</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
